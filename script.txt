@@ -1,0 +1,12 @@
+DateTime warp = new DateTime(12, 33.3, 15);
+warp.accessDimension(4);
+for (int i = 0; i < warp.getGoal(); i++) {
+    double e = Math.power(m*c, 2);
+    warp.hackTime();
+    warp.advance(i.toTimeInterval());
+}
+if (past.currentDate() == warp.currentDate() {
+    System.out.println("Time Hacked successfully.");
+} else {
+    System.out.println("Time not fully hacked.");
+}
