@@ -16,7 +16,8 @@ public class KungFury {
     public static void main(String[] args) {
         String energyConverterText = null;
         try {
-            energyConverterText = readFile("script.txt", StandardCharsets.UTF_8);
+            energyConverterText = 
+                readFile("script.txt", StandardCharsets.UTF_8);
         } catch (IOException e1) {
             e1.printStackTrace();
             System.exit(-1);
@@ -54,5 +55,5 @@ public class KungFury {
                 count++;
             }
         }
-	}
+    }
 }
